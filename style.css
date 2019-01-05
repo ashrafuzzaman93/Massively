@@ -1,0 +1,237 @@
+/*
+	Theme Name: Massively
+	Theme URI: https://html5up.net/massively
+	Author: Ashrafuzzaman
+	Author URI: http://ashrafuzzaman.com
+	Description: Massively is a free html template of html5up.net | @ajlkn. 
+	Version: 1.0.0
+	License: Free for personal and commercial use under the CCA 3.0 license
+	License URI: https://html5up.net/license
+	Text Domain: massively
+	Tags: one-column, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, theme-options, threaded-comments, translation-ready.
+*/
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+.sticky, .gallery-caption, .bypostauthor{
+	visibility: inherit;
+}
+
+.pagination a {
+	padding: 0 15px;
+}
+
+.link-pages a{
+	color: #18bfef;
+	font-weight: bold;
+}
+
+footer form textarea {
+    max-height: 150px !important;
+}
+
+#wrapper {
+	background-image: none;
+}
+
+/* WP defaults comments template style */
+@media screen and (min-width: 768px){
+    .comments-area .comment-list {
+        padding-bottom: 2em;
+    }
+}
+.comment-list {
+    padding: 0;
+    line-height: 1.6;
+}
+.comments-area ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.comments-area article {
+    position: relative;
+    padding: .6em 0;
+    margin-bottom: .8em;
+    border-bottom: 1px solid #F4F3EF;
+}
+.comment-meta {
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+    .comment-meta .fn, .comment-meta .says, .comment-metadata, .comment-content {
+        margin-left: 84px;
+    }
+}
+.comment-meta .comment-author img {
+    display: block;
+    float: left;
+    margin: 0 1.0em 0 0;
+    border-radius: 50%;
+    max-width: 52px;
+}
+.comment-meta .comment-author .fn {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 0.2em;
+}
+.comment-metadata > a {
+    font-size: 11px;
+    font-weight: 400;
+    color: #C5CAD0;
+    border-bottom: 0;
+}
+.comment-metadata > a:hover{
+    color: #C5CAD0 !important;
+}
+.comment-meta .comment-edit-link{
+    font-size: 11px;
+    margin-left: 5px;
+}
+.comment-content {
+    padding-top: .1em;
+    clear: left;
+}
+.comment-content p {
+    margin: .8em 0 .2em 0;
+    font-size: 0.875em;
+}
+.comment .reply {
+    text-align: right;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.comments-area ol ol {
+    margin-left: 6%;
+}
+.bypostauthor > article {
+    border-color: #18bfef;
+    border-bottom-width: 4px;
+}
+.comments-area .says{
+    display: none;
+}
+.comment-respond #cancel-comment-reply-link {
+    color: #8ACB82 !important;
+}
+.comment-respond #cancel-comment-reply-link:hover{
+    color: #65985f !important;
+}
+span.page-numbers.current {
+    border: 2px solid #18bfef;
+    color: #18bfef;
+}
+header.page-header {
+    text-align: center;
+}
